@@ -20,10 +20,16 @@
 * Record_Coordinates.py用于记录坐标点。
 * Madgwick_AHRS_Test.py 用于评估算法收敛程度。在实际使用时可以无视这个文件。
 * MainSequence.py 为主程序，负责上面提到的各个模块的调度与初始化等等。在使用时，需要显式调用的程序只有MainSequence.py。
+
 # 同时也在开发基于ROS的上位机程序
 * [上位机端ROS版Github地址](https://github.com/matreshka15/ROS-based-unmanned-vehicle-project)  
 建议使用非ROS版上位机程序，原因：开发环境容易配置（只需要Python），并且稳定性好。
 * [姿态解算算法的解释与实机演示视频](https://zhuanlan.zhihu.com/p/82973264)
+### 重要！所有开发下位机过程中的开发日志以及手册均已存放在下面地址
+* [开发无人船过程中参考的传感器手册以及算法资料](https://github.com/matreshka15/unmanned-ship-datasheets)
+* 开发日志记录了项目从一开始的立项到后面一步步测试成功的大大小小细节。前后由于放弃了旧的姿态算法、选取了新的姿态算法，因此前期关于姿态的说明仅供参考用。
+* 通信协议的部分已摘抄出来，放在超链接处的Repo目录下。即：整体框架与通信协议.docx
+
 # 开发环境
 在树莓派3B上开发，树莓派4上测试也没问题。理论支持任何支持python的开发板
 # 其他
